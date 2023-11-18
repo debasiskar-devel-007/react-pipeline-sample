@@ -1,0 +1,11 @@
+inputSet:
+  pipeline:
+    identifier: Build_react_pipeline_sample_1700289003274
+    properties:
+      ci:
+        codebase:
+          build: ""
+  name: T1
+  identifier: T1
+  orgIdentifier: default
+  projectIdentifier: default_project
