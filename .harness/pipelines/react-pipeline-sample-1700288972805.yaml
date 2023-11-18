@@ -21,6 +21,7 @@ pipeline:
                   identifier: npminstall
                   name: npm_install
                   spec:
+                    shell: Sh
                     command: npm install
                   timeout: ""
                   type: Run
@@ -28,6 +29,7 @@ pipeline:
                   identifier: npmtest
                   name: npm_test
                   spec:
+                    shell: Sh
                     command: npm run test
                   timeout: ""
                   type: Run
@@ -43,9 +45,9 @@ pipeline:
                   timeout: ""
                   type: Plugin
           platform:
-            arch: Amd64
             os: Linux
+            arch: Amd64
           runtime:
-            spec: {}
             type: Cloud
+            spec: {}
         type: CI
