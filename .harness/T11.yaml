@@ -1,0 +1,15 @@
+inputSet:
+  pipeline:
+    identifier: Build_react_pipeline_sample_1700289003274
+    properties:
+      ci:
+        codebase:
+          build:
+            spec:
+              branch: main
+            type: branch
+    object Object: properties.ci.codebase
+  name: T1-1
+  identifier: T11
+  orgIdentifier: default
+  projectIdentifier: default_project
