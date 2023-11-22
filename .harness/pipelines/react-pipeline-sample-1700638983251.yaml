@@ -32,6 +32,15 @@ pipeline:
                     command: npm run build
                   timeout: ""
                   type: Run
+              - step:
+                  type: S3Upload
+                  name: S3Upload_1
+                  identifier: S3Upload_1
+                  spec:
+                    connectorRef: awsnew
+                    region: eu-north-1
+                    bucket: react-pipeline-test
+                    sourcePath: /
           platform:
             os: Linux
             arch: Amd64
