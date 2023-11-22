@@ -38,7 +38,7 @@ pipeline:
                   identifier: BuildAndPushDockerRegistry_1
                   spec:
                     connectorRef: dockerpersonal
-                    repo: https://hub.docker.com/r/debasiskar007/react-pipeline-demo-harness
+                    repo: <+input>
                     tags:
                       - latest
                     dockerfile: Dockerfile
