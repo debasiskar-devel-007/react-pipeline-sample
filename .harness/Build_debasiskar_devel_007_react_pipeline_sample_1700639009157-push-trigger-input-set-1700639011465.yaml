@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_debasiskar_devel_007_react_pipeline_sample_1700639009157-push-trigger-input-set
+  identifier: Build_debasiskar_devel_007_react_pipeline_sample_1700639009157pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_debasiskar_devel_007_react_pipeline_sample_1700639009157
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
