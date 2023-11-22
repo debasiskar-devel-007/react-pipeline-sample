@@ -32,16 +32,6 @@ pipeline:
                     command: npm run build
                   timeout: ""
                   type: Run
-              - step:
-                  type: BuildAndPushDockerRegistry
-                  name: BuildAndPushDockerRegistry_1
-                  identifier: BuildAndPushDockerRegistry_1
-                  spec:
-                    connectorRef: dockerpersonal
-                    repo: <+input>
-                    tags:
-                      - latest
-                    dockerfile: Dockerfile
           platform:
             os: Linux
             arch: Amd64
