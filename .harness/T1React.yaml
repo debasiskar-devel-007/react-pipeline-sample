@@ -1,0 +1,12 @@
+inputSet:
+  pipeline:
+    identifier: Build_debasiskar_devel_007_react_pipeline_sample_1700639009157
+    properties:
+      ci:
+        codebase:
+          build: ""
+    remoteBranch: main
+  name: T1-React
+  identifier: T1React
+  orgIdentifier: default
+  projectIdentifier: default_project
