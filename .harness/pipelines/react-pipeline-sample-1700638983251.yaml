@@ -40,8 +40,8 @@ pipeline:
                     connectorRef: awsnew
                     region: eu-north-1
                     bucket: react-pipeline-test
-                    sourcePath: ./build/*
-                    target: /
+                    sourcePath: ./build/**
+                    target: ./
           platform:
             os: Linux
             arch: Amd64
